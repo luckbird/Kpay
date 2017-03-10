@@ -1,0 +1,5 @@
+platform :ios,'8.0'
+target 'KPayTest' do
+pod 'AFNetworking'
+pod 'Masonry'
+end
