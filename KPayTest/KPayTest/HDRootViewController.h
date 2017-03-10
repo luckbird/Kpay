@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  HDRootViewController.h
 //  KPayTest
 //
 //  Created by YST on 17/3/10.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface HDRootViewController : UITabBarController
 
 @end
-
