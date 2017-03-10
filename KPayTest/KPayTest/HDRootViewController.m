@@ -9,11 +9,11 @@
 #import "HDRootViewController.h"
 
 @interface HDRootViewController ()
-<<<<<<< .merge_file_EH8TXC
+
 - (void)sayByeBye;
-=======
+
 - (void)sayHello;
->>>>>>> .merge_file_GOewnB
+
 @end
 
 @implementation HDRootViewController
@@ -22,13 +22,13 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 }
-<<<<<<< .merge_file_EH8TXC
+
 - (void)sayByeBye {
     NSLog(@"bye bye ");
-=======
+}
 - (void)sayHello {
     NSLog(@"hello everybody");
->>>>>>> .merge_file_GOewnB
+
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
