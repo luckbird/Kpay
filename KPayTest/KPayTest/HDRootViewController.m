@@ -9,7 +9,7 @@
 #import "HDRootViewController.h"
 
 @interface HDRootViewController ()
-
+- (void)sayByeBye;
 @end
 
 @implementation HDRootViewController
@@ -18,7 +18,9 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 }
-
+- (void)sayByeBye {
+    NSLog(@"bye bye ");
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
