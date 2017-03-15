@@ -21,6 +21,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self sayByeBye];
+    [self sayHello];
     // Do any additional setup after loading the view.
 }
 
